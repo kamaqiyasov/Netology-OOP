@@ -164,6 +164,11 @@ student1.rate_lecture(lecturer2, 'Python', 5)
 student2.rate_lecture(lecturer2, 'Java', 5)
 student2.rate_lecture(lecturer2, 'Java', 3)
 
+print(isinstance(lecturer1, Mentor))
+print(isinstance(reviewer1, Mentor))
+print(lecturer1.courses_attached)
+print(reviewer1.courses_attached)
+
 print(student1)
 print(lecturer1)
 print(reviewer1)
